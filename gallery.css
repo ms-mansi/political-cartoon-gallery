@@ -1,0 +1,27 @@
+/* Top vertical navigation bar Style  */
+.vertical-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13.5%;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    height: 450px;
+    overflow: auto; /* This will add a scrollbar when the sidenav is too long */
+  }
+  
+  /*  Vertical topnav links Style */
+  .vertical-nav li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of vertical navbar on hover */
+  .vertical-nav li a:hover:not(.active) {
+    background-color: yellow;
+    color: black;
+  }
+
+

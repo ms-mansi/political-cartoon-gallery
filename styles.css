@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Main content style */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+ padding: 60px;
+   }
+
+/* Header Style */
+.header {
+  background-color: rgba(255, 255, 0, 0.521);
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*  Top contact bar Style */
+.contact {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Contact links Style*/
+.contact a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Top horizontal navigation bar Style*/
+.horizontal-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+/* Top horizontal navigation bar li border and position Style */
+.horizontal-nav li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+/* Top horizontal navigation bar li border in right position Style*/
+.horizontal-nav li:last-child {
+  border-right: none;
+}
+
+/* Horizontal topnav links Style  */
+.horizontal-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of horizontal navbar on hover */
+.horizontal-nav li a:hover:not(.active) {
+  background-color: yellow;
+  color:black;
+}
+
+
+
+/* Footer styling */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/* font style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #333; /* Ensure good contrast with background */
+  }
+  
+  /* font style for headings (h1, h2, h3, etc.) */
+  h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #000; /* Adjust heading colors for better contrast */
+  }
+  
+  /* font style for paragraphs */
+  p {
+    font-family: Verdana, sans-serif;
+    color: #333; /* Ensure good contrast with background */
+  }
+  
+  /*  font style for links */
+  a {
+    font-family: Arial, sans-serif;
+    text-decoration: underline; 
+    color: orangered; 
+  }
+  
+ 
+  

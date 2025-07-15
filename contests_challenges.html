@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contests and Challenges</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body style="background-image: url('images/background/backgroundslay.png');
+background-size: cover;
+background-repeat: repeat-x;
+background-attachment: absolute; "
+
+</body>
+
+<style>
+.theme {
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form section */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Input section */
+.input {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+/* Label section */
+.label {
+  font-size: 14px;
+}
+
+/* Submit section */
+.submit {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+}
+</style>
+
+
+<div class="header">
+    <h1 class="site-name">Political Cartoon Gallery</h1>
+</div>
+
+<div class="contact">
+	    <marquee>
+<a href="tel:+91-12345678910"><b>Contact Us: +91-12345678910</b></a> 
+<a href="mailto:politicartoons@Caricature.com"><b> Email-politicartoons@Caricature.com</b></a>
+    </marquee>
+    </div>
+
+    <div class="horizontal-nav ">
+<ul>
+ <li> <a href="index.html"><b>Home</b></a></li>
+      <li><a href="aboutus.html"><b>About Us</b></a></li>
+     <li><a href="history.html"><b>History</b></a></li>
+      <li><a href="gallery.html"><b>Gallery</b></a></li>  
+     <li><a href="artist_profile.html"><b>Caricature Artists</b></a></li>
+<li><a href="contests_challenges.html"><b>Contests and Challenges </b></a></li>
+  <li style="float:right"><a href="contactus.html"><b>Contact Us</b></a></li>
+</ul>
+</div>
+
+<main>
+
+<!-- Header section -->
+<div class="theme">
+<center>
+  <h1>Political Cartoon Contest</h1>
+</center>
+<p>Submit your cartoons on any of the following themes and political article challenges:</p>
+<ol>
+<li style="1">How to cope with the challenges of inflation, food security, and the energy crisis in 2023</li>
+<li>How to leverage data and technology to improve work and learning outcomes in 2023</li>
+<li>How to foster global cooperation and solidarity in the face of geopolitical competition and international security threats in 2023</li>
+<li>How to rescue the Sustainable Development Goals and take action on the climate crisis in 2023</li>
+</ol>
+<p>The deadline for submission is December 31, 2023. The best cartoons will be featured on our website and social media platforms.</p>
+</div>
+
+<!-- Form section -->
+<div class="form">
+<form action="/submit" method="post" enctype="multipart/form-data">
+<!-- Input section -->
+<input type="text" name="name" placeholder="Enter your name" class="input" required>
+<!-- Input section -->
+<input type="email" name="email" placeholder="Enter your email" class="input" required>
+<!-- Label section -->
+<label for="theme" class="label">Select a theme:</label>
+<!-- Input section -->
+<select name="theme" id="theme" class="input" required>
+<option value="">Choose one</option>
+<option value="inflation">How to cope with the challenges of inflation, food security, and the energy crisis in 2023</option>
+<option value="data">How to leverage data and technology to improve work and learning outcomes in 2023</option>
+<option value="cooperation">How to foster global cooperation and solidarity in the face of geopolitical competition and international security threats in 2023</option>
+<option value="climate">How to rescue the Sustainable Development Goals and take action on the climate crisis in 2023</option>
+</select>
+<!-- Label section -->
+<label for="cartoon" class="label">Upload your cartoon:</label>
+<!-- Input section -->
+<input type="file" name="cartoon" id="cartoon" accept=".jpg,.png" class="input" required>
+<!-- Submit section -->
+<input type="submit" value="Submit" class="submit">
+</form>
+</div>
+</main>
+
+<div class="footer">
+    <p style="color:white;">&copy; Political Caricature Gallery</p>
+    <p style="color:white;"><a href="tel:+91-12345678910">Contact Us: +91-12345678910,</a>
+         <a href="mailto:politicartoons@Caricature.com">Email-politicartoons@Caricature.com</a></p>
+    </div>

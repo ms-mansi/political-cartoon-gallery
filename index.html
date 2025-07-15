@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home-Political Cartoon Gallery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<style>
+/* three unequal columns  */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Add a background color or image to the .row */
+.row{
+  background-image: url('images/background/background3.png'); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-attachment: absolute; 
+  
+}
+
+</style>
+
+<div class="header">
+    <h1 class="site-name">Political Cartoon Gallery</h1>
+</div>
+
+<div class="contact">
+	    <marquee>
+<a href="tel:+91-12345678910"><b>Contact Us: +91-12345678910</b></a> 
+<a href="mailto:politicartoons@Caricature.com"><b> Email-politicartoons@Caricature.com</b></a>
+    </marquee>
+    </div>
+
+    <div class="horizontal-nav">
+<ul>
+ <li> <a href="index.html"><b>Home</b></a></li>
+      <li><a href="aboutus.html"><b>About Us</b></a></li>
+     <li><a href="history.html"><b>History</b></a></li>
+      <li><a href="gallery.html"><b>Gallery</b></a></li>  
+     <li><a href="artist_profile.html"><b>Caricature Artists</b></a></li>
+<li><a href="contests_challenges.html"><b>Contests and Challenges </b></a></li>
+  <li style="float:right"><a href="contactus.html"><b>Contact Us</b></a></li>
+</ul>
+</div>
+
+<div class="row">
+    <div class="column side">
+      <img src="images/artist/Bal-Thackery/bal-thackeray-cartoons-3.webp" style="width:300px;height:350px;">
+      <br>
+      <img src="images/cartoon/coalition.jpg" style="width:300px;height:350px;">
+    </div>
+    
+    <div class="column middle">
+        <h1>Welcome to our Political Cartoon Gallery</h1>
+        <h2>"Explore the world of political satire through cartoons and humor."</h2>
+        <p>
+            It is said that even dictators, leave alone democratic governments, fear the political cartoonist and his strokes. You can thus judge the freedom in a country by judging the freedom its cartoonist enjoys. But what is it about this apparently small sketch that makes it so adored by the public and abhorred by the powers that fail?
+            <br>
+            <br>
+            First of all, a cartoon is that rare creation that wraps art, portraiture and comment in the same picture. It appears funny but the message it delivers is hardly that.
+            <br>
+            <br>
+            When satire and wit blend with comic strokes, what emerges is a potent combination, a deadly potion, a cartoon that can hit governments harder than a thousand word editorial can. This is speaking for the political cartoonist. But even other cartoonists, no matter what genre they belong to, enjoy the same power and popularity.
+            <br>
+            <br>
+            Under the guise of tickling the funny bone of the reader, what a cartoonist does is to mould public opinion, drawing his attention gently to the follies of our leaders, of the people around us, in short, of ourselves.
+            <br>
+            <br>
+        </p>
+    </div>
+    
+    <div class="column side">
+      <img src="images/artist/pran kumar sharma/Pran-Kumar-Sharma.jpg" style="width:300px;height:350px;">
+      <br>
+      <img src="images/artist/Bal-Thackery/bal-thackeray-cartoons-2.webp" style="width:300px;height:350px;">
+    </div>
+  </div>
+
+<div class="footer">
+    <p style="color:white;">&copy; Political Caricature Gallery</p>
+    <p style="color:white;"><a href="tel:+91-12345678910">Contact Us: +91-12345678910,</a>
+         <a href="mailto:politicartoons@Caricature.com">Email-politicartoons@Caricature.com</a></p>
+  </div>
