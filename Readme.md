@@ -51,8 +51,8 @@ Political-Cartoon-Gallery/
 This project was built as part of a learning exercise of my ADCA journey for web development and creative content presentation. It merges visual storytelling with civic education and aims to highlight political thought through satirical art.
 
 ## 👩‍💻 Author
-- **Mansi**  
-- *Master's in Library & Information Science + ADCA*
+**Mansi**
+*Master's in Library & Information Science + ADCA*
 
 GitHub: [github.com/ms-mansi](https://github.com/ms-mansi)  
 LinkedIn: [linkedin.com/in/mansinewdelhi](https://linkedin.com/in/mansinewdelhi)
