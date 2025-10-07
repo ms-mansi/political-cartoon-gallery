@@ -52,7 +52,7 @@ This project was built as part of a learning exercise of my ADCA journey for web
 
 ## 👩‍💻 Author
 - **Mansi**  
-*Master's in Library & Information Science + ADCA*
+- *Master's in Library & Information Science + ADCA*
 
 GitHub: [github.com/ms-mansi](https://github.com/ms-mansi)  
 LinkedIn: [linkedin.com/in/mansinewdelhi](https://linkedin.com/in/mansinewdelhi)
